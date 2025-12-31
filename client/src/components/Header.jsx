@@ -4,8 +4,10 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <div className='max-w-6xl flex iems-center mx-auto justify-between p-3'>
-          <div className="logo">LOGO</div>
+    <div className='max-w-6xl flex items-center mx-auto justify-between p-3'>
+      <div className="logo">
+        <Link to="/">LOGO</Link>
+          </div>
           
           <nav className="navbar">
               <ul className='flex gap-4'>
